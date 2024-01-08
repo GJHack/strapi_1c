@@ -1,0 +1,75 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ALEXASHKA_BIG\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add xml2json
+
+PATH: 
+  C:\Users\ALEXASHKA_BIG\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ALEXASHKA_BIG\bin;C:\Python311\Scripts;C:\Python311;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\ALEXASHKA_BIG\AppData\Local\Microsoft\WindowsApps;C:\Users\ALEXASHKA_BIG\AppData\Roaming\npm;C:\Program Files\JetBrains\WebStorm 2022.2\bin;C:\Users\ALEXASHKA_BIG\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\ALEXASHKA_BIG\Desktop\ROLIZ\deskctop\ROLIZ\back\src\plugins\exchange\package.json: Unexpected token } in JSON at position 502
+      at JSON.parse (<anonymous>)
+      at C:\Users\ALEXASHKA_BIG\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\ALEXASHKA_BIG\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\ALEXASHKA_BIG\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "exchange",
+    "version": "0.0.0",
+    "description": "This is the description of the plugin.",
+    "strapi": {
+      "name": "exchange",
+      "description": "Description of Exchange plugin",
+      "kind": "plugin",
+      "displayName": "Exchange"
+    },
+    "dependencies": {
+      "@strapi/design-system": "^1.6.3",
+      "@strapi/helper-plugin": "^4.6.0",
+      "@strapi/icons": "^1.6.3",
+      "body-parser": "^1.20.2",
+      "prop-types": "^15.7.2",
+      "strapi-utils": "^3.6.11",
+      "unzipper": "^0.10.14",
+    },
+    "devDependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-router-dom": "^5.3.4",
+      "styled-components": "^5.3.6"
+    },
+    "peerDependencies": {
+      "react": "^17.0.0 || ^18.0.0",
+      "react-dom": "^17.0.0 || ^18.0.0",
+      "react-router-dom": "^5.3.4",
+      "styled-components": "^5.3.6"
+    },
+    "author": {
+      "name": "A Strapi developer"
+    },
+    "maintainers": [
+      {
+        "name": "A Strapi developer"
+      }
+    ],
+    "engines": {
+      "node": ">=16.0.0 <=20.x.x",
+      "npm": ">=6.0.0"
+    },
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
